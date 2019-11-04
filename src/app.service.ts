@@ -7,4 +7,9 @@ export class AppService {
     console.log("Typeof query.level: ", typeof query.level);
     return 'Hello World!';
   }
+
+  postHello(query: SampleDto): string {
+    console.log("Typeof query.level: ", typeof query.level);
+    return 'Hello World!';
+  }
 }
